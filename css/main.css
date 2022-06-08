@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&family=Poppins:wght@300;500&display=swap');
+
+/* color */
+
+html {
+    scroll-behavior: smooth;
+}
+
+.bg {
+    background-image: url(../img/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+ :root {
+    --green: #129349;
+    --greenhover: #0c522a;
+    --white: #ffffff;
+}
+
+nav {
+    background-color: #129349;
+    padding: 20px !important;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+ul li a {
+    font-weight: 400;
+    color: var(--white) !important;
+    font-weight: 300;
+    margin-left: 30px;
+}
+
+.jumbotron {
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--green);
+}
+
+.jumbotron h1 {
+    font-weight: bold;
+    color: white;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.jumbotron p {
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: var(--white);
+    font-size: 25px;
+}
+
+#readmore {
+    color: var(--white);
+    /* border: 2px solid white; */
+    padding: 10px 20px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+
+/* 
+#readmore:hover {
+    background-color: var(--greenhover);
+} */
+
+
+/* vidio */
+
+.box {
+    border-radius: 50px;
+    padding-top: 50px;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding-bottom: 50px;
+}
+
+.vidio {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.vidio h2 {
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.vidio .line {
+    width: 100%;
+    height: 2px;
+    background-color: white;
+}
+
+.vidio .card {
+    cursor: pointer;
+    transition: .2s;
+}
+
+.vidio .card {
+    color: black;
+}
+
+.vidio .card:hover {
+    color: white;
+    background-color: var(--green);
+}
+
+.vidio .card {
+    margin-top: 15px;
+}
+
+.about {
+    background-color: var(--green);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: white;
+}
+
+@media screen and (max-width: 376px) {
+    ul li {
+        text-align: center;
+    }
+    #images {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    ul li {
+        text-align: center;
+    }
+    #images {
+        margin-top: 20px;
+    }
+}
+
+footer {
+    height: 30px;
+    text-align: center;
+    background-color: rgb(233, 233, 233);
+}
